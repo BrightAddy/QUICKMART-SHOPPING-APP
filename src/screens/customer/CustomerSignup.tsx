@@ -3,7 +3,23 @@ import { View, TextInput, TouchableOpacity, StyleSheet, Text, ScrollView, Animat
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../../navigation/types';
 import { LinearGradient } from 'expo-linear-gradient';
-// removed network imports to keep frontend standalone
+cd 'C:\Users\brigh\Downloads\frontend\frontendmain'
+
+# See current status and files to commit
+git status --short
+
+# Stage the fixed file (or stage all changes)
+git add src/screens/customer/CustomerSignup.tsx
+# or to stage everything:
+git add .
+
+# Commit
+git commit -m "Fix: remove accidental git text from CustomerSignup.tsx"
+
+# Push (set upstream if needed)
+git push
+# If push fails because upstream not set:
+# git push -u origin main// removed network imports to keep frontend standalone
 
 const { width, height } = Dimensions.get('window');
 
